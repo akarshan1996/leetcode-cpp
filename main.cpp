@@ -2,6 +2,7 @@
 #include <cstring>
 #include <map>
 
+void run0005();
 void run0042();
 void run0200();
 
@@ -15,6 +16,7 @@ int main(const int argc, const char *const argv[]) {
     const std::string number(argv[1]);
 
     static const std::map<const std::string, void (*const)()> runMap = {
+            {"5",   run0005},
             {"42",  run0042},
             {"200", run0200},
     };
