@@ -4,6 +4,7 @@
 
 void run0005();
 void run0042();
+void run0138();
 void run0200();
 
 int main(const int argc, const char *const argv[]) {
@@ -18,6 +19,7 @@ int main(const int argc, const char *const argv[]) {
     static const std::map<const std::string, void (*const)()> runMap = {
             {"5",   run0005},
             {"42",  run0042},
+            {"138", run0138},
             {"200", run0200},
     };
 
