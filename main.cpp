@@ -5,6 +5,7 @@
 void run0005();
 void run0042();
 void run0138();
+void run0151();
 void run0165();
 void run0200();
 void run0315();
@@ -22,6 +23,7 @@ int main(const int argc, const char *const argv[]) {
             {"5",   run0005},
             {"42",  run0042},
             {"138", run0138},
+            {"151", run0151},
             {"165", run0165},
             {"200", run0200},
             {"315", run0315},
