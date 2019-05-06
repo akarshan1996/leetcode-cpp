@@ -6,6 +6,7 @@ void run0005();
 void run0042();
 void run0138();
 void run0200();
+void run0315();
 
 int main(const int argc, const char *const argv[]) {
 
@@ -21,6 +22,7 @@ int main(const int argc, const char *const argv[]) {
             {"42",  run0042},
             {"138", run0138},
             {"200", run0200},
+            {"315", run0315},
     };
 
     if (runMap.find(number) == runMap.end()) {
