@@ -10,6 +10,7 @@ void run0165();
 void run0200();
 void run0297();
 void run0315();
+void run0621();
 void run0973();
 
 int main(const int argc, const char *const argv[]) {
@@ -30,6 +31,7 @@ int main(const int argc, const char *const argv[]) {
             {"200", run0200},
             {"297", run0297},
             {"315", run0315},
+            {"621", run0621},
             {"973", run0973},
     };
 
