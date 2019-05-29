@@ -3,6 +3,7 @@
 #include <map>
 
 void run0005();
+void run0023();
 void run0042();
 void run0053();
 void run0138();
@@ -26,6 +27,7 @@ int main(const int argc, const char *const argv[]) {
 
     static const std::map<const std::string, void (*const)()> runMap = {
             {"5",   run0005},
+            {"23",  run0023},
             {"42",  run0042},
             {"53",  run0053},
             {"138", run0138},
