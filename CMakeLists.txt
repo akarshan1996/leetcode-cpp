@@ -13,6 +13,7 @@ add_executable(leetcode_cpp
         n0151_reverse_words_in_a_string.cpp
         n0165_compare_version_numbers.cpp
         n0200_number_of_islands.cpp
+        n0238_product_of_array_except_self.cpp
         n0297_serialize_and_deserialize_binary_tree.cpp
         n0315_count_of_smaller_numbers_after_self.cpp
         n0560_subarray_sum_equals_k.cpp
