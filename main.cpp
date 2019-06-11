@@ -17,6 +17,7 @@ void run0315();
 void run0427();
 void run0560();
 void run0621();
+void run0741();
 void run0973();
 
 int main(const int argc, const char *const argv[]) {
@@ -44,6 +45,7 @@ int main(const int argc, const char *const argv[]) {
             {"427", run0427},
             {"560", run0560},
             {"621", run0621},
+            {"741", run0741},
             {"973", run0973},
     };
 

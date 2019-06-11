@@ -20,5 +20,6 @@ add_executable(leetcode_cpp
         n0427_construct_quad_tree.cpp
         n0560_subarray_sum_equals_k.cpp
         n0621_task_scheduler.cpp
+        n0741_cherry_pickup.cpp
         n0973_k_closest_points_to_origin.cpp
         )
