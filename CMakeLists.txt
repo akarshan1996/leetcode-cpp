@@ -10,6 +10,7 @@ add_executable(leetcode_cpp
         n0033_search_in_rotated_sorted_array.cpp
         n0042_trapping_rain_water.cpp
         n0053_maximum_subarray.cpp
+        n0054_sprial_matrix.cpp
         n0103_binary_tree_zigzag_level_order_traversal.cpp
         n0138_copy_list_with_random_pointer.cpp
         n0151_reverse_words_in_a_string.cpp
